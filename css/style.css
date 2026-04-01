@@ -1,0 +1,89 @@
+
+body { 
+  font-family: Arial; }
+
+
+.nav-item{  
+  border-bottom: 1px solid transparent;
+  transition: linear .33s;
+}
+
+.nav-item:hover{
+      border-bottom: 1px solid blue;
+  }
+
+.menu ul li a{
+  font-size:22px;
+  font-weight:700;
+  color:darkblue !important;
+  padding:0 50px !important;
+  
+}
+.menu ul li:last-child a{
+  padding-right:0  ;
+}
+
+
+.content_1{
+  color:blue;
+}
+
+.content_2{
+  color:darkblue;
+}
+
+.w_types { 
+  padding: 80px 0;
+  margin-bottom:4px; }
+
+.serve { 
+  padding:20px 60px;
+  margin:0 80px;
+  background-color:blue; }
+
+.o_serve{
+  color:white;
+}
+
+.cal{
+  color:darkblue;
+} 
+
+#slider {
+  width: 300px;
+  margin:auto ;
+}
+
+#custom-handle {
+  width: 3em;
+  height: 1.6em;
+  top: 50%;
+  margin-top: -.8em;
+  text-align: center;
+  line-height: 1.6em;
+}
+
+#contact h2.contac_1 {
+  color: darkblue;
+}
+
+  label {
+    display: inline-block; width: 5em;
+  }
+  
+  fieldset div {
+    margin-bottom: 2em;
+  }
+  
+  fieldset .help {
+    display: inline-block;
+  }
+  
+  .ui-tooltip {
+    width: 210px;
+  }
+
+  footer { 
+  background:#222; 
+  color:white; 
+  padding:20px; }
